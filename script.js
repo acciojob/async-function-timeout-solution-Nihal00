@@ -21,5 +21,6 @@ async function showMessege() {
 			resolve(message);
 		}, delayValue);
 	});
-	
 }
+
+btn.addEventListener("click", showMessege);
